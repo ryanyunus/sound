@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Audio Saya</title>
+    <style>
+      /* CSS Sederhana agar rapi */
+      body {
+        font-family: sans-serif;
+        display: grid;
+        place-items: center;
+        min-height: 80vh;
+        background-color: #f4f4f4;
+      }
+      .audio-container {
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="audio-container">
+      <h1>Pemutar Audio</h1>
+      <p>Silakan putar audio di bawah ini:</p>
+
+      <audio controls>
+        <source src="nama_file_audio_anda.mp3" type="audio/mpeg" />
+        Browser Anda tidak mendukung elemen audio.
+      </audio>
+    </div>
+  </body>
+</html>
